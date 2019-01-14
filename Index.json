@@ -1,0 +1,20 @@
+const Discord = require("discord.js");
+const bot = new Discord.Client();
+
+bot.on('message', function(message){
+    if(message.content == 'hello')
+    {
+        message.reply('Hello, how are you?');
+    }
+    if(message.content == 'no u')
+    {
+        message.reply('Uno Reverse Card! You cannot win now!');
+    }
+    if(message.content == 'nigger')
+    {
+        message.(' nigger');
+    }
+
+});
+
+bot.login('NTI5MDA2NzA1OTkyNzk0MTEz.DwqkVg.TiHfZ0Cc0oTMeNcXJE4ol1eC6Pk');
