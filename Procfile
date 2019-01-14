@@ -1,1 +1,1 @@
-worker: python Index.json
+worker:node Index.json
