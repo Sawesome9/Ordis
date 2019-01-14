@@ -17,4 +17,4 @@ bot.on('message', function(message){
 
 });
 
-bot.login('NTI5MDA2NzA1OTkyNzk0MTEz.DwqkVg.TiHfZ0Cc0oTMeNcXJE4ol1eC6Pk');
+bot.login(process.env.NTI5MDA2NzA1OTkyNzk0MTEz.DwqkVg.TiHfZ0Cc0oTMeNcXJE4ol1eC6Pk);
